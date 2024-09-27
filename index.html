@@ -1,0 +1,37 @@
+<!--FIRST HTML APP WITH HTML!! (ELI AHMED + JEFE)
+
+//Using HTML for front end part of app (player interface)
+
+Go to index in folder to run! 
+
+LEFT OFF ON 14:51 EVERYTHING CORRECT SO FAR  -->  
+
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Black Jack</title> <!--Title of App-->
+        <link rel="stylesheet" href="blackjack.css">
+
+        <!--Defines the src file as blackjack.js (We Created in JS NOT HTML)-->
+        <script  src = "blackjack.js"></script>  
+    </head>
+
+
+    <body><!--Actual Hit + Stay Functions-->
+        <h2>Dealer: <span id = "dealer-sum"></span></h2> <!--Populates dealer -->
+        <div id = "dealer-cards">
+            <img id = "hidden" src = "./cards/BACK.png"> <!--Pulling from card image in specific directory-->
+        </div>
+
+        <h2>You: <span id = "your-sum"></span></h2>
+        <div id = "your-cards"></div>
+
+        <br>
+        <!--Gives player the options-->
+        <button id = "hit">Hit</button>
+        <button id = "stay">Stay</button>
+        <p id = "results"></p>
+    </body>
+</html>
