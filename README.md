@@ -1,1 +1,1 @@
-A small prototype for Eli and Jefe Blackjack Project for FNL. It's a playable app that allows you play a standard game of Blackjack but with a small twist, the narrator isn't silent or what they seem.
+A fully functional interactive Black Jack Project by Eli and Jefe. It's a playable app that allows you play a standard game of Blackjack but with a small twist, the narrator isn't silent or what they seem.
